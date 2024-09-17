@@ -20,4 +20,4 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm test
-    - run: pm2 restart canvaclonebackend
+    - run: pm2 restart backendserver
